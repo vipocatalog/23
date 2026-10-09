@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>קטלוג ספות יוקרה 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="flipbook.js" defer></script>
+</head>
+<body>
+    <div class="flipbook-container fullscreen">
+        <div class="flipbook-header">
+            <h1>קטלוג ספות יוקרה 1</h1>
+            <div class="controls">
+                <button id="prev-btn" title="עמוד קודם">&#10094;</button>
+                <span id="page-num">1</span> / <span id="page-count">60</span>
+                <button id="next-btn" title="עמוד הבא">&#10095;</button>
+                <button id="fullscreen-btn" title="מסך מלא">⛶</button>
+            </div>
+        </div>
+        
+        <div class="flipbook-viewer">
+            <div id="book">
+                <!-- Pages will be inserted here by JavaScript -->
+            </div>
+        </div>
+        
+        <!-- אזור התמונות הממוזערות הוסר כדי לנצל את כל שטח המסך -->
+        
+        <div class="flipbook-footer">
+            <p>נוצר באמצעות מערכת המרת PDF לקטלוג דיגיטלי</p>
+        </div>
+    </div>
+    
+    <script>
+        // Catalog data will be inserted here
+        var catalogData = {"title": "קטלוג ספות יוקרה 1", "pages": 60, "theme": "default", "createdAt": "2026-10-09 04:30:10", "pageInfo": [{"pageNumber": 1, "imagePath": "images/page_1.jpg", "thumbPath": "thumbs/thumb_1.jpg"}, {"pageNumber": 2, "imagePath": "images/page_2.jpg", "thumbPath": "thumbs/thumb_2.jpg"}, {"pageNumber": 3, "imagePath": "images/page_3.jpg", "thumbPath": "thumbs/thumb_3.jpg"}, {"pageNumber": 4, "imagePath": "images/page_4.jpg", "thumbPath": "thumbs/thumb_4.jpg"}, {"pageNumber": 5, "imagePath": "images/page_5.jpg", "thumbPath": "thumbs/thumb_5.jpg"}, {"pageNumber": 6, "imagePath": "images/page_6.jpg", "thumbPath": "thumbs/thumb_6.jpg"}, {"pageNumber": 7, "imagePath": "images/page_7.jpg", "thumbPath": "thumbs/thumb_7.jpg"}, {"pageNumber": 8, "imagePath": "images/page_8.jpg", "thumbPath": "thumbs/thumb_8.jpg"}, {"pageNumber": 9, "imagePath": "images/page_9.jpg", "thumbPath": "thumbs/thumb_9.jpg"}, {"pageNumber": 10, "imagePath": "images/page_10.jpg", "thumbPath": "thumbs/thumb_10.jpg"}, {"pageNumber": 11, "imagePath": "images/page_11.jpg", "thumbPath": "thumbs/thumb_11.jpg"}, {"pageNumber": 12, "imagePath": "images/page_12.jpg", "thumbPath": "thumbs/thumb_12.jpg"}, {"pageNumber": 13, "imagePath": "images/page_13.jpg", "thumbPath": "thumbs/thumb_13.jpg"}, {"pageNumber": 14, "imagePath": "images/page_14.jpg", "thumbPath": "thumbs/thumb_14.jpg"}, {"pageNumber": 15, "imagePath": "images/page_15.jpg", "thumbPath": "thumbs/thumb_15.jpg"}, {"pageNumber": 16, "imagePath": "images/page_16.jpg", "thumbPath": "thumbs/thumb_16.jpg"}, {"pageNumber": 17, "imagePath": "images/page_17.jpg", "thumbPath": "thumbs/thumb_17.jpg"}, {"pageNumber": 18, "imagePath": "images/page_18.jpg", "thumbPath": "thumbs/thumb_18.jpg"}, {"pageNumber": 19, "imagePath": "images/page_19.jpg", "thumbPath": "thumbs/thumb_19.jpg"}, {"pageNumber": 20, "imagePath": "images/page_20.jpg", "thumbPath": "thumbs/thumb_20.jpg"}, {"pageNumber": 21, "imagePath": "images/page_21.jpg", "thumbPath": "thumbs/thumb_21.jpg"}, {"pageNumber": 22, "imagePath": "images/page_22.jpg", "thumbPath": "thumbs/thumb_22.jpg"}, {"pageNumber": 23, "imagePath": "images/page_23.jpg", "thumbPath": "thumbs/thumb_23.jpg"}, {"pageNumber": 24, "imagePath": "images/page_24.jpg", "thumbPath": "thumbs/thumb_24.jpg"}, {"pageNumber": 25, "imagePath": "images/page_25.jpg", "thumbPath": "thumbs/thumb_25.jpg"}, {"pageNumber": 26, "imagePath": "images/page_26.jpg", "thumbPath": "thumbs/thumb_26.jpg"}, {"pageNumber": 27, "imagePath": "images/page_27.jpg", "thumbPath": "thumbs/thumb_27.jpg"}, {"pageNumber": 28, "imagePath": "images/page_28.jpg", "thumbPath": "thumbs/thumb_28.jpg"}, {"pageNumber": 29, "imagePath": "images/page_29.jpg", "thumbPath": "thumbs/thumb_29.jpg"}, {"pageNumber": 30, "imagePath": "images/page_30.jpg", "thumbPath": "thumbs/thumb_30.jpg"}, {"pageNumber": 31, "imagePath": "images/page_31.jpg", "thumbPath": "thumbs/thumb_31.jpg"}, {"pageNumber": 32, "imagePath": "images/page_32.jpg", "thumbPath": "thumbs/thumb_32.jpg"}, {"pageNumber": 33, "imagePath": "images/page_33.jpg", "thumbPath": "thumbs/thumb_33.jpg"}, {"pageNumber": 34, "imagePath": "images/page_34.jpg", "thumbPath": "thumbs/thumb_34.jpg"}, {"pageNumber": 35, "imagePath": "images/page_35.jpg", "thumbPath": "thumbs/thumb_35.jpg"}, {"pageNumber": 36, "imagePath": "images/page_36.jpg", "thumbPath": "thumbs/thumb_36.jpg"}, {"pageNumber": 37, "imagePath": "images/page_37.jpg", "thumbPath": "thumbs/thumb_37.jpg"}, {"pageNumber": 38, "imagePath": "images/page_38.jpg", "thumbPath": "thumbs/thumb_38.jpg"}, {"pageNumber": 39, "imagePath": "images/page_39.jpg", "thumbPath": "thumbs/thumb_39.jpg"}, {"pageNumber": 40, "imagePath": "images/page_40.jpg", "thumbPath": "thumbs/thumb_40.jpg"}, {"pageNumber": 41, "imagePath": "images/page_41.jpg", "thumbPath": "thumbs/thumb_41.jpg"}, {"pageNumber": 42, "imagePath": "images/page_42.jpg", "thumbPath": "thumbs/thumb_42.jpg"}, {"pageNumber": 43, "imagePath": "images/page_43.jpg", "thumbPath": "thumbs/thumb_43.jpg"}, {"pageNumber": 44, "imagePath": "images/page_44.jpg", "thumbPath": "thumbs/thumb_44.jpg"}, {"pageNumber": 45, "imagePath": "images/page_45.jpg", "thumbPath": "thumbs/thumb_45.jpg"}, {"pageNumber": 46, "imagePath": "images/page_46.jpg", "thumbPath": "thumbs/thumb_46.jpg"}, {"pageNumber": 47, "imagePath": "images/page_47.jpg", "thumbPath": "thumbs/thumb_47.jpg"}, {"pageNumber": 48, "imagePath": "images/page_48.jpg", "thumbPath": "thumbs/thumb_48.jpg"}, {"pageNumber": 49, "imagePath": "images/page_49.jpg", "thumbPath": "thumbs/thumb_49.jpg"}, {"pageNumber": 50, "imagePath": "images/page_50.jpg", "thumbPath": "thumbs/thumb_50.jpg"}, {"pageNumber": 51, "imagePath": "images/page_51.jpg", "thumbPath": "thumbs/thumb_51.jpg"}, {"pageNumber": 52, "imagePath": "images/page_52.jpg", "thumbPath": "thumbs/thumb_52.jpg"}, {"pageNumber": 53, "imagePath": "images/page_53.jpg", "thumbPath": "thumbs/thumb_53.jpg"}, {"pageNumber": 54, "imagePath": "images/page_54.jpg", "thumbPath": "thumbs/thumb_54.jpg"}, {"pageNumber": 55, "imagePath": "images/page_55.jpg", "thumbPath": "thumbs/thumb_55.jpg"}, {"pageNumber": 56, "imagePath": "images/page_56.jpg", "thumbPath": "thumbs/thumb_56.jpg"}, {"pageNumber": 57, "imagePath": "images/page_57.jpg", "thumbPath": "thumbs/thumb_57.jpg"}, {"pageNumber": 58, "imagePath": "images/page_58.jpg", "thumbPath": "thumbs/thumb_58.jpg"}, {"pageNumber": 59, "imagePath": "images/page_59.jpg", "thumbPath": "thumbs/thumb_59.jpg"}, {"pageNumber": 60, "imagePath": "images/page_60.jpg", "thumbPath": "thumbs/thumb_60.jpg"}], "fullscreen": true, "backgroundColor": "#333333"};
+    </script>
+</body>
+</html>
